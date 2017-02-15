@@ -8,9 +8,9 @@ public class WriteDataWithAutoClose{
 		try(
 			java.io.PrintWriter output=new java.io.PrintWriter(file);
 		){
-			output.print("John T Smith");
+			output.print("John T Smith ");
 			output.println(90);
-			output.print("Eric K Jones");
+			output.print("Eric K Jones ");
 			output.println(85);
 		}
 	}
